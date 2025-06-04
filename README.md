@@ -19,4 +19,4 @@ Os grupos devem implementar os algoritmos de escalonamento nesse código base de
 Para começar, faça o **fork** deste repositório e depois clone-o para o seu ambiente local. No terminal do VSCode ou qualquer terminal que você esteja utilizando, digite o seguinte comando:
 
 ```bash
-git clone https://github.com/seu-usuario/escalonador-processos.git
+git clone https://github.com/adianohum/escalonador-processos.git
