@@ -1,22 +1,27 @@
 import random
 import time
 from collections import deque
+from abc import ABC, abstractmethod
+
+#Atual
 
 # Para implementar um novo método de escalonamento, vocês devem criar uma nova classe que herda de Escalonador e implementar o método escalonar de acordo com sua estratégia.
 # Este código fornece a base para que vocês experimentem e implementem suas próprias ideias de escalonamento, mantendo a estrutura flexível e fácil de estender.
 
-
-class Processo:
-    def __init__(self, nome, tempo_execucao):
-        self.nome = nome
-        self.tempo_execucao = tempo_execucao  # tempo total necessário para execução
-        self.tempo_restante = tempo_execucao  # tempo restante para execução
+class TarefaCAV:
+    def __init__(self, nome, duracao, prioridade=1):
+        self.nome = nome            # Nome da tarefa (ex. Detecção de Obstáculo)
+        self.duracao = duracao      # Tempo necessário para completar a tarefa (em segundos)
+        self.prioridade = prioridade # Prioridade da tarefa (quanto menor o número, maior a prioridade)
+        self.tempo_restante = duracao # Tempo restante para completar a tarefa
+        self.tempo_inicio = 0       # Hora em que a tarefa começa
+        self.tempo_final = 0        # Hora em que a tarefa termina
 
     def __str__(self):
-        return f"Processo {self.nome}: {self.tempo_execucao} unidades de tempo"
+        return f"Tarefa {self.nome} (Prioridade {self.prioridade}): {self.duracao} segundos"
 
     def executar(self, quantum):
-        """Executa o processo por um tempo de 'quantum' ou até terminar"""
+        """Executa a tarefa por um tempo de 'quantum' ou até terminar"""
         tempo_exec = min(self.tempo_restante, quantum)
         self.tempo_restante -= tempo_exec
         return tempo_exec
@@ -26,122 +31,165 @@ class Processo:
 # O método executar(quantum) executa o processo por uma quantidade limitada de tempo (quantum) ou até ele terminar.
 
 
-class Escalonador:
+# Classe abstrata de Escalonador
+class EscalonadorCAV(ABC):
     def __init__(self):
-        self.processos = []
-        self.sobrecarga = 0  # Inicializa a sobrecarga
+        self.tarefas = []
+        self.sobrecarga_total = 0  # Sobrecarga total acumulada
 
-    def adicionar_processo(self, processo):
-        self.processos.append(processo)
+    def adicionar_tarefa(self, tarefa):
+        """Adiciona uma tarefa (ação do CAV) à lista de tarefas"""
+        self.tarefas.append(tarefa)
 
+    @abstractmethod
     def escalonar(self):
-        """Método de escalonamento a ser implementado pelos alunos"""
-        raise NotImplementedError
+        """Método que será implementado pelos alunos para o algoritmo de escalonamento"""
+        pass
 
     def registrar_sobrecarga(self, tempo):
-        """Simula o acréscimo de tempo de sobrecarga"""
-        self.sobrecarga += tempo
+        """Adiciona tempo de sobrecarga ao total"""
+        self.sobrecarga_total += tempo
+
+    def exibir_sobrecarga(self):
+        """Exibe a sobrecarga total acumulada"""
+        print(f"Sobrecarga total acumulada: {self.sobrecarga_total} segundos.\n")
 
 # A classe base Escalonador define a estrutura para os escalonadores, incluindo um método escalonar
 # que vocês deverão implementar em suas versões específicas de escalonamento (como FIFO e Round Robin).
 
 
-class FIFO(Escalonador):
-    def __init__(self):
-        super().__init__()
-
+class EscalonadorFIFO(EscalonadorCAV):
     def escalonar(self):
-        """FIFO - First In First Out"""
-        print("Iniciando escalonamento FIFO...\n")
+        """Escalonamento FIFO para veículos autônomos"""
         tempo_inicial = 0
-        for processo in self.processos:
-            processo.tempo_inicial = tempo_inicial
-            tempo_inicial += processo.tempo_execucao
-            processo.tempo_final = tempo_inicial
-            print(f"Executando {processo.nome} de {processo.tempo_execucao} unidades.")
-            time.sleep(processo.tempo_execucao)  # Simulando o tempo de execução
-            print(f"{processo.nome} finalizado.\n")
+        for tarefa in self.tarefas:
+            tarefa.tempo_inicio = tempo_inicial
+            tempo_inicial += tarefa.duracao
+            tarefa.tempo_final = tempo_inicial
+            print(f"Executando tarefa {tarefa.nome} de {tarefa.duracao} segundos.")
+            time.sleep(tarefa.duracao)  # Simula a execução da tarefa
 
-        # No FIFO não há troca de contexto, logo a sobrecarga é zero
-        print(f"Sobrecarga total no FIFO: {self.sobrecarga} unidades de tempo.")
+            # Registrando a sobrecarga, como exemplo, podemos adicionar um tempo fixo de sobrecarga
+            #self.registrar_sobrecarga(0.5)  # 0.5 segundos de sobrecarga por tarefa (simulando troca de contexto)
+            print(f"Tarefa {tarefa.nome} finalizada.\n")
+
+        self.exibir_sobrecarga()
 
 # O escalonador FIFO executa os processos na ordem em que foram adicionados, sem interrupção, até que todos os processos terminem.
 
 
-class RoundRobin(Escalonador):
+class EscalonadorRoundRobin(EscalonadorCAV):
     def __init__(self, quantum):
         super().__init__()
         self.quantum = quantum
 
     def escalonar(self):
-        """Round Robin"""
-        print("Iniciando escalonamento Round Robin...\n")
-        fila = deque(self.processos)
+        """Escalonamento Round Robin com tarefas de CAVs"""
+        fila = deque(self.tarefas)
         tempo_inicial = 0
         while fila:
-            processo = fila.popleft()
-            processo.tempo_inicial = tempo_inicial
-            tempo_exec = processo.executar(self.quantum)
-            tempo_inicial += tempo_exec
-            if processo.tempo_restante > 0:
-                fila.append(processo)  # Coloca o processo de volta na fila se não terminou
-            processo.tempo_final = tempo_inicial
-            print(f"Executando {processo.nome} por {tempo_exec} unidades.")
-            time.sleep(tempo_exec)  # Simulando o tempo de execução
+            tarefa = fila.popleft()
+            if tarefa.tempo_restante > 0:
+                tarefa.tempo_inicio = tempo_inicial
+                tempo_exec = min(tarefa.tempo_restante, self.quantum)
+                tarefa.tempo_restante -= tempo_exec
+                tempo_inicial += tempo_exec
+                print(f"Executando tarefa {tarefa.nome} por {tempo_exec} segundos.")
+                time.sleep(tempo_exec)  # Simula a execução da tarefa
 
-            # A cada troca de contexto, registramos a sobrecarga
-            self.registrar_sobrecarga(1)  # Considerando 1 unidade de tempo para cada troca de contexto
+                # Registrando a sobrecarga, como exemplo, podemos adicionar um tempo fixo de sobrecarga
+                self.registrar_sobrecarga(0.3)  # 0.3 segundos de sobrecarga por tarefa
+                if tarefa.tempo_restante > 0:
+                    fila.append(tarefa)  # Coloca a tarefa de volta na fila se não terminar
+                tarefa.tempo_final = tempo_inicial
+                print(f"Tarefa {tarefa.nome} finalizada ou ainda pendente.\n")
 
-            if processo.tempo_restante == 0:
-                print(f"{processo.nome} finalizado.\n")
-            else:
-                print(f"{processo.nome} ainda precisa de {processo.tempo_restante} unidades.\n")
-
-        print(f"Sobrecarga total no Round Robin: {self.sobrecarga} unidades de tempo.")
+        self.exibir_sobrecarga()
 
 # O escalonador Round Robin permite que cada processo seja executado por um tempo limitado (quantum).
 # Quando o processo termina ou o quantum é atingido, o próximo processo da fila é executado.
 # Se o processo não terminar no quantum, ele é colocado de volta na fila.
 
 
-class SimuladorEscalonamento:
-    def __init__(self, escalonador: Escalonador):
-        self.escalonador = escalonador
+class EscalonadorPrioridade(EscalonadorCAV):
+    def escalonar(self):
+        """Escalonamento por Prioridade (menor número = maior prioridade)"""
+        print("Escalonamento por Prioridade:")
+        # Ordena as tarefas pela prioridade
+        self.tarefas.sort(key=lambda tarefa: tarefa.prioridade)
+        tempo_inicial = 0
+        for tarefa in self.tarefas:
+            tarefa.tempo_inicio = tempo_inicial
+            tempo_inicial += tarefa.duracao
+            tarefa.tempo_final = tempo_inicial
+            print(f"Executando tarefa {tarefa.nome} de {tarefa.duracao} segundos com prioridade {tarefa.prioridade}.")
+            time.sleep(tarefa.duracao)
 
-    def rodar_simulacao(self):
-        self.escalonador.escalonar()
+            # Registrando a sobrecarga, como exemplo, podemos adicionar um tempo fixo de sobrecarga
+            self.registrar_sobrecarga(0.4)  # 0.4 segundos de sobrecarga por tarefa
+            print(f"Tarefa {tarefa.nome} finalizada.\n")
 
-# A classe SimuladorEscalonamento é usada para rodar a simulação, passando o escalonador escolhido para o método rodar_simulacao().
-
-
-# Função para criar alguns processos fictícios
-def criar_processos():
-    nomes = ["P1", "P2", "P3", "P4"]
-    tempos = [random.randint(5, 10) for _ in nomes]  # Tempo de execução aleatório entre 5 e 10
-    return [Processo(nomes[i], tempos[i]) for i in range(len(nomes))]
-
-# Esta função cria uma lista de processos fictícios com nomes e tempos de execução aleatórios, usada para testar os escalonadores.
+        self.exibir_sobrecarga()
 
 
-# Exemplo de uso:
+class CAV:
+    def __init__(self, id):
+        self.id = id  # Identificador único para cada CAV
+        self.tarefas = []  # Lista de tarefas atribuídas a esse CAV
+
+    def adicionar_tarefa(self, tarefa):
+        self.tarefas.append(tarefa)
+
+    def executar_tarefas(self, escalonador):
+        print(f"CAV {self.id} começando a execução de tarefas...\n")
+        escalonador.escalonar()
+        print(f"CAV {self.id} terminou todas as suas tarefas.\n")
+
+
+# Função para criar algumas tarefas fictícias
+def criar_tarefas():
+    tarefas = [
+        TarefaCAV("Detecção de Obstáculo", random.randint(5, 10), prioridade=1),
+        TarefaCAV("Planejamento de Rota", random.randint(3, 6), prioridade=2),
+        TarefaCAV("Manutenção de Velocidade", random.randint(2, 5), prioridade=3),
+        TarefaCAV("Comunicando com Infraestrutura", random.randint(4, 7), prioridade=1)
+    ]
+    return tarefas
+
+
+# Exemplo de uso
 if __name__ == "__main__":
-    # Criar alguns processos
-    processos = criar_processos()
+    # Criar algumas tarefas fictícias
+    tarefas = criar_tarefas()
+
+    # Criar um CAV
+    cav = CAV(id=1)
+    for t in tarefas:
+        cav.adicionar_tarefa(t)
 
     # Criar um escalonador FIFO
-    print("Simulando FIFO:\n")
-    fifo = FIFO()
-    for p in processos:
-        fifo.adicionar_processo(p)
+    print("Simulando CAV com FIFO:\n")
+    escalonador_fifo = EscalonadorFIFO()
+    for t in tarefas:
+        escalonador_fifo.adicionar_tarefa(t)
 
-    simulador_fifo = SimuladorEscalonamento(fifo)
-    simulador_fifo.rodar_simulacao()
+    simulador_fifo = CAV(id=1)
+    simulador_fifo.executar_tarefas(escalonador_fifo)
 
-    # Criar um escalonador Round Robin com quantum de 3 unidades
-    print("\nSimulando Round Robin:\n")
-    rr = RoundRobin(quantum=3)
-    for p in processos:
-        rr.adicionar_processo(p)
+    # Criar um escalonador Round Robin com quantum de 3 segundos
+    print("\nSimulando CAV com Round Robin:\n")
+    escalonador_rr = EscalonadorRoundRobin(quantum=3)
+    for t in tarefas:
+        escalonador_rr.adicionar_tarefa(t)
 
-    simulador_rr = SimuladorEscalonamento(rr)
-    simulador_rr.rodar_simulacao()
+    simulador_rr = CAV(id=1)
+    simulador_rr.executar_tarefas(escalonador_rr)
+
+    # Criar um escalonador por Prioridade
+    print("\nSimulando CAV com Escalonamento por Prioridade:\n")
+    escalonador_prio = EscalonadorPrioridade()
+    for t in tarefas:
+        escalonador_prio.adicionar_tarefa(t)
+
+    simulador_prio = CAV(id=1)
+    simulador_prio.executar_tarefas(escalonador_prio)
