@@ -20,3 +20,6 @@ Para começar, faça o **fork** deste repositório e depois clone-o para o seu a
 
 ```bash
 git clone https://github.com/adianohum/escalonador-processos.git
+
+Apresentação de CAVs realizada na aula:
+https://docs.google.com/presentation/d/1kfpq_A5-2QML1px0vP03-8CNKc1toOZqjn1z06FISyY/edit?usp=sharing
