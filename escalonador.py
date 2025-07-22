@@ -57,10 +57,6 @@ class escalonador:
         valid_tasks = [t for t in self.tarefas if t.chegada <= self.tempo]
         # Filtra as tarefas que não estão finalizadas
         valid_tasks = [t for t in valid_tasks if t.estado != TaskState.FINALIZADO]
-        logToFile(f"Valid tasks: {[t.nome for t in valid_tasks]} at time {self.tempo}")
-        logToFile(f"Current task: {self.current_task.nome if self.current_task else 'None'}")
-        logToFile(f"Overload: {self.at_overload}, Overload cost: {self.overload_cost}, N Overloads: {self.n_overload}")
-        logToFile(f"-----------")
         # Algoritimo não preemptivo:
         if not self.preemptivo:
             #Se estiver executando uma tarefa, não escalona outra
@@ -82,20 +78,16 @@ class escalonador:
                     valid_tasks.append(self.current_task)  # Re-adiciona a tarefa atual se ela não estiver finalizada
                     self.at_overload = True  # Marca que estamos em sobrecarga
                 # Se não há tarefa atual ou a tarefa atual está finalizada, escalona uma nova
-                logToFile(f"Processos: {[f'{p.nome}: {p.estado}' for p in self.tarefas]}")
                 self.current_task = self.algoritmo.escalonar(valid_tasks, self.tempo)
         # Se temos sobrecarga, adiciona o custo de sobrecarga ao tempo
         if self.at_overload:
             self.n_overload += 1
-            logToFile(f"Overload detected! Count: {self.n_overload}")
             self.tempo += self.overload_cost
             return
         # Executa a tarefa atual se houver
         if self.current_task:
-            logToFile(f"Executando tarefa: {self.current_task.nome} no tempo {self.tempo}")
             self.current_task.estado = TaskState.EXECUTANDO
             self.tempo += self.current_task.executar(self.tempo, self.time_slice)
-            logToFile(f"Tempo atual: {self.tempo}")
         else:
             #senão houver tarefa atual, apenas avança o tempo
             # para o proximo tick inteiro
@@ -200,4 +192,20 @@ class escalonador:
             self.tick()
             self.take_snapshot()
             time.sleep(delay)
-        return self.tempo
+        
+    
+    def resultado(self):
+        results = {}
+        # tira um time slice pois tem mais um ts para mostrar todos finalizados
+        results["tempo_total"] = self.tempo - self.time_slice
+        results["n_overload"] = self.n_overload
+        results["total_overload_time"] = self.overload_cost * self.n_overload
+        results["n_processos"] = len(self.tarefas)
+
+        results["avg_turnaround_time"] = sum(t.turn_around_time for t in self.tarefas if t.turn_around_time is not None) / len(self.tarefas)
+        results["avg_turnaround_time"] = f"{results['avg_turnaround_time']:.2f}"
+        results["avg_wait_time"] = sum(t.wait_time for t in self.tarefas if t.wait_time is not None) / len(self.tarefas)
+        results["avg_wait_time"] = f"{results['avg_wait_time']:.2f}"
+        results["avg_response_time"] = sum(t.response_time for t in self.tarefas if t.response_time is not None) / len(self.tarefas)
+        results["avg_response_time"] = f"{results['avg_response_time']:.2f}"
+        return results

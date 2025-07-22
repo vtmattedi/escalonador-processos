@@ -19,18 +19,12 @@
       "chegada": 4,
       "duracao": 10,
       "prioridade": 2
-    },
-    {
-      "nome": "T4",
-      "chegada": 2,
-      "duracao": 15,
-      "prioridade": 2
     }
   ],
   "algoritmos": [
     {
       "name": "hrrn",
-      "preemptable": true
+      "preemptable": false
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "tasks": [
+    {
+      "nome": "T1",
+      "chegada": 0,
+      "duracao": 5,
+      "prioridade": 1,
+      "deadline": 10
+    },
+    {
+      "nome": "T-LONG",
+      "chegada": 2,
+      "duracao": 10,
+      "prioridade": 2
+    },
+    {
+      "nome": "T3",
+      "chegada": 4,
+      "duracao": 7,
+      "prioridade": 2
+    },
+    {
+      "nome": "T8",
+      "chegada": 5,
+      "duracao": 5,
+      "prioridade": 2
+    },
+        {
+      "nome": "T4",
+      "chegada": 2,
+      "duracao": 7,
+      "prioridade": 2
+    },
+     {
+      "nome": "T5",
+      "chegada": 4,
+      "duracao": 3,
+      "prioridade": 2
+    },
+     {
+      "nome": "T7",
+      "chegada": 5,
+      "duracao": 3,
+      "prioridade": 2
+    },
+     {
+      "nome": "T6",
+      "chegada": 6,
+      "duracao": 5,
+      "prioridade": 2
+    }
+  ],
+  "algoritmos": [
+    {
+      "name": "hrrn",
+      "preemptable": false
+    },
+    {
+        "name": "sjf",
+        "preemptable": false
+    },
+    {
+      "name": "hrrn",
+      "preemptable": true
+    }
+  ]
+}

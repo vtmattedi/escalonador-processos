@@ -1,5 +1,4 @@
 import copy
-from old.simulator import Simulator
 import algoritimos
 from cav import CAV
 from task import TarefaCAV
@@ -56,6 +55,8 @@ if __name__ == "__main__":
                         help=f"custo de sobrecarga (padrão: {OVERLOAD_COST})")
     parser.add_argument("-ts", "--time-slice", type=float, default=TIME_SLICE,
                         help=f"tempo de slice do escalonador (padrão: {TIME_SLICE})")
+    parser.add_argument("-m", "--manual", action='store_true',
+                        help="pede input ao usuario a cada algoritmo utilizado.")
     args = parser.parse_args()
 
 
@@ -81,7 +82,7 @@ if __name__ == "__main__":
                 ALGORITMOS = []
                 for a in file["algoritmos"]:
                     ALGORITMOS.append((getattr(algoritimos, "escalonador_" + a["name"]), a["preemptable"]))
-        print(ALGORITMOS, START_TASKS)     
+             
 
     # Desabilita o cursor do console para uma melhor visualização
     console.show_cursor(False)
@@ -96,8 +97,12 @@ if __name__ == "__main__":
         for _task in copy.deepcopy(START_TASKS): #cria novas instâncias das tasks iniciais
             cav.adicionar_tarefa(_task)
         
-        cav.simular()
-        # data.append((alg.__name__, preemptable, simulator.context_switches, simulator.calc_stat(args.overload_cost)))
+        cav.simular(args.t)
+        result = cav.get_statistics()
+        data.append((alg.__name__, preemptable, cav.id, result))
+        if args.manual:
+            input(f"\033[93;1mPressione Enter para continuar com o próximo algoritmo...\033[0m")
+
         # simulator.start_sync()
         # simulator.print_snapshot()
     if args.output:
@@ -109,11 +114,16 @@ if __name__ == "__main__":
             os.remove(args.output)
             with open(args.output, "w") as f:
                 f.write("")
+  
     for _data in data:
         # console.home()
-        print(f"Algoritmo: {_data[0]}, Preemptável: {_data[1]}, Trocas de Contexto: {_data[2]}")
+        str = f"Cav #{_data[2]} Algoritmo: {_data[0]}, Preemptável: {_data[1]} \n"
+
+        str += "\n\t".join(f"{k}: {v}" for k, v in _data[3].items())
         if args.output:
+            print(f"\033[92;1mSalvando resultados em \033[4m{args.output}\033[0m")
             with open(args.output, "a") as f:
-                f.write(f"Algoritmo: {_data[0]}, Preemptavel: {_data[1]}, Trocas de Contexto: {_data[2]}\n")
-                f.write(f"Estatisticas: {_data[3].safe_str()}\n")
+                f.write(str + "\n")
+        print(str)
+
     console.show_cursor(True)

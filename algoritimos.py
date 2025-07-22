@@ -137,5 +137,6 @@ class escalonador_hrrn(algoritimo_base):
         def hrrn_score(p, tempo_atual):
             """Calcula o score HRRN para um processo"""
             espera = tempo_atual - p.chegada
-            return (espera + p.restante) / p.restante if p.restante > 0 else float('inf')
+            exec_time = p.duracao - p.restante
+            return (espera + exec_time) / exec_time if exec_time > 0 else float('inf')
         return sorted(processos, key=lambda p: (-hrrn_score(p, tempo_atual)))[0]
