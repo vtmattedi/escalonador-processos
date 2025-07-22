@@ -1,0 +1,69 @@
+{
+  "tasks": [
+    {
+      "nome": "DeteccaoObjetos",
+      "chegada": 0,
+      "duracao": 5,
+      "prioridade": 1,
+      "deadline": 10
+    },
+    {
+      "nome": "PlanejamentoRota",
+      "chegada": 1,
+      "duracao": 3,
+      "prioridade": 2,
+      "deadline": 8
+    },
+    {
+      "nome": "LocalizacaoGPS",
+      "chegada": 2,
+      "duracao": 2,
+      "prioridade": 1,
+      "deadline": 5
+    },
+    {
+      "nome": "ControleMotor",
+      "chegada": 3,
+      "duracao": 4,
+      "prioridade": 3,
+      "deadline": 12
+    },
+    {
+      "nome": "ProcessamentoCamera",
+      "chegada": 4,
+      "duracao": 1,
+      "prioridade": 2,
+      "deadline": 6
+    }
+  ],
+  "algoritmos": [
+    {
+      "name": "fcfs",
+      "preemptable": true
+    },
+    {
+      "name": "sjf",
+      "preemptable": true
+    },
+    {
+      "name": "rr",
+      "preemptable": true
+    },
+    {
+      "name": "priority",
+      "preemptable": true
+    },
+    {
+      "name": "edf",
+      "preemptable": true
+    },
+    {
+      "name": "lottery",
+      "preemptable": false
+    },
+    {
+      "name": "hrrn",
+      "preemptable": true
+    }
+  ]
+}

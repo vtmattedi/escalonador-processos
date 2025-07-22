@@ -1,0 +1,3257 @@
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['T1', 'T2'] at time 2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 0
+-----------
+Em sobrecarga, não escalonando novas tarefas.
+Tempo avançado para 2.2 devido à sobrecarga.
+Valid tasks: ['T1', 'T2'] at time 2.2
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 2.2
+Tempo atual: 3.2
+Valid tasks: ['T1', 'T2'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Em sobrecarga, não escalonando novas tarefas.
+Tempo avançado para 3.4000000000000004 devido à sobrecarga.
+Valid tasks: ['T1', 'T2'] at time 3.4000000000000004
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 3.4000000000000004
+Tempo atual: 4.4
+Valid tasks: ['T1', 'T2'] at time 4.4
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Em sobrecarga, não escalonando novas tarefas.
+Tempo avançado para 4.6000000000000005 devido à sobrecarga.
+Valid tasks: ['T1', 'T2'] at time 4.6000000000000005
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 4.6000000000000005
+Tempo atual: 5.6000000000000005
+Valid tasks: ['T1', 'T2'] at time 5.6000000000000005
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Em sobrecarga, não escalonando novas tarefas.
+Tempo avançado para 5.800000000000001 devido à sobrecarga.
+Valid tasks: ['T1', 'T2'] at time 5.800000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 5.800000000000001
+Tempo atual: 6.800000000000001
+Valid tasks: ['T1', 'T2'] at time 6.800000000000001
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Em sobrecarga, não escalonando novas tarefas.
+Tempo avançado para 7.000000000000001 devido à sobrecarga.
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Overload detected! Count: 2
+Valid tasks: ['T1'] at time 1.4
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Overload detected! Count: 3
+Valid tasks: ['T1'] at time 1.5999999999999999
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Overload detected! Count: 4
+Valid tasks: ['T1'] at time 1.7999999999999998
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Overload detected! Count: 5
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.2
+Tempo atual: 2.2
+Valid tasks: ['T1', 'T2'] at time 2.2
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Valid tasks: ['T1', 'T2'] at time 2.4000000000000004
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 2.4000000000000004
+Tempo atual: 3.4000000000000004
+Valid tasks: ['T1', 'T2'] at time 3.4000000000000004
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Valid tasks: ['T1', 'T2'] at time 3.6000000000000005
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Executando tarefa: T2 no tempo 3.6000000000000005
+Tempo atual: 4.6000000000000005
+Valid tasks: ['T1', 'T2'] at time 4.6000000000000005
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Valid tasks: ['T1', 'T2'] at time 4.800000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 4.800000000000001
+Tempo atual: 5.800000000000001
+Valid tasks: ['T1', 'T2'] at time 5.800000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Valid tasks: ['T1', 'T2'] at time 6.000000000000001
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 6.000000000000001
+Tempo atual: 7.000000000000001
+Valid tasks: ['T1', 'T2'] at time 7.000000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Valid tasks: ['T1', 'T2'] at time 7.200000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 6
+-----------
+Executando tarefa: T1 no tempo 7.200000000000001
+Tempo atual: 8.200000000000001
+Valid tasks: ['T2'] at time 8.200000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 8.200000000000001
+Tempo atual: 9.200000000000001
+Valid tasks: [] at time 9.200000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.2
+Tempo atual: 2.2
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.2
+Tempo atual: 2.2
+Valid tasks: ['T1', 'T2'] at time 2.2
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Valid tasks: ['T1', 'T2'] at time 2.4000000000000004
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 2.4000000000000004
+Tempo atual: 3.4000000000000004
+Valid tasks: ['T1', 'T2'] at time 3.4000000000000004
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Valid tasks: ['T1', 'T2'] at time 3.6000000000000005
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Executando tarefa: T2 no tempo 3.6000000000000005
+Tempo atual: 4.6000000000000005
+Valid tasks: ['T1', 'T2'] at time 4.6000000000000005
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Valid tasks: ['T1', 'T2'] at time 4.800000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 4.800000000000001
+Tempo atual: 5.800000000000001
+Valid tasks: ['T1', 'T2'] at time 5.800000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.2
+Tempo atual: 2.2
+Valid tasks: ['T1', 'T2'] at time 2.2
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Valid tasks: ['T1', 'T2'] at time 2.4000000000000004
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 2.4000000000000004
+Tempo atual: 3.4000000000000004
+Valid tasks: ['T1', 'T2'] at time 3.4000000000000004
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Valid tasks: ['T1', 'T2'] at time 3.6000000000000005
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Executando tarefa: T2 no tempo 3.6000000000000005
+Tempo atual: 4.6000000000000005
+Valid tasks: ['T1', 'T2'] at time 4.6000000000000005
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Valid tasks: ['T1', 'T2'] at time 4.800000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 4.800000000000001
+Tempo atual: 5.800000000000001
+Valid tasks: ['T1', 'T2'] at time 5.800000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Valid tasks: ['T1', 'T2'] at time 6.000000000000001
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 6.000000000000001
+Tempo atual: 7.000000000000001
+Valid tasks: ['T1', 'T2'] at time 7.000000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Valid tasks: ['T1', 'T2'] at time 7.200000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 6
+-----------
+Executando tarefa: T1 no tempo 7.200000000000001
+Tempo atual: 8.200000000000001
+Valid tasks: ['T2'] at time 8.200000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 8.200000000000001
+Tempo atual: 9.200000000000001
+Valid tasks: [] at time 9.200000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.2
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.2
+Tempo atual: 2.2
+Valid tasks: ['T1', 'T2'] at time 2.2
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Valid tasks: ['T1', 'T2'] at time 2.4000000000000004
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 2.4000000000000004
+Tempo atual: 3.4000000000000004
+Valid tasks: ['T1', 'T2'] at time 3.4000000000000004
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Valid tasks: ['T1', 'T2'] at time 3.6000000000000005
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 3
+-----------
+Executando tarefa: T2 no tempo 3.6000000000000005
+Tempo atual: 4.6000000000000005
+Valid tasks: ['T1', 'T2'] at time 4.6000000000000005
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Valid tasks: ['T1', 'T2'] at time 4.800000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 4.800000000000001
+Tempo atual: 5.800000000000001
+Valid tasks: ['T1', 'T2'] at time 5.800000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Valid tasks: ['T1', 'T2'] at time 6.000000000000001
+Current task: T2
+Overload: True, Overload cost: 0.2, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 6.000000000000001
+Tempo atual: 7.000000000000001
+Valid tasks: ['T1', 'T2'] at time 7.000000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Valid tasks: ['T1', 'T2'] at time 7.200000000000001
+Current task: T1
+Overload: True, Overload cost: 0.2, N Overloads: 6
+-----------
+Executando tarefa: T1 no tempo 7.200000000000001
+Tempo atual: 8.200000000000001
+Valid tasks: ['T2'] at time 8.200000000000001
+Current task: T1
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 8.200000000000001
+Tempo atual: 9.200000000000001
+Valid tasks: [] at time 9.200000000000001
+Current task: T2
+Overload: False, Overload cost: 0.2, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 7
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 9
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4', 'Processo5'] at time 11
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4', 'Processo5'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4', 'Processo5'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo5'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4'] at time 6
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo3', 'Processo4'] at time 7
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo2', 'Processo4'] at time 8
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo2', 'Processo4'] at time 9
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo2', 'Processo4'] at time 10
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4'] at time 11
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo4'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 7
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 9
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4', 'Processo5'] at time 11
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4', 'Processo5'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4', 'Processo5'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo5'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 7
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 9
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4'] at time 11
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo4'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 7
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo2', 'Processo4', 'Processo5'] at time 9
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4'] at time 11
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo4'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 7
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 9
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4', 'Processo5'] at time 11
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4', 'Processo5'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4', 'Processo5'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo5'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 14
+Tempo atual: 15
+Valid tasks: [] at time 15
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 5
+Tempo atual: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 6
+Tempo atual: 7
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 7
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 8
+Tempo atual: 9
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 9
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 9
+Tempo atual: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 10
+Tempo atual: 11
+Valid tasks: ['Processo4', 'Processo5'] at time 11
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Valid tasks: ['Processo4', 'Processo5'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Valid tasks: ['Processo4', 'Processo5'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Tarefa Processo2 está pronta no tempo 1 last_t: 0 chegada: 1 i: 0
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Tarefa Processo2 está pronta no tempo 1 last_t: 0 chegada: 1 i: 0
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo3 está pronta no tempo 2 last_t: 1 chegada: 2 i: 1
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Tarefa Processo2 está pronta no tempo 1 last_t: 0 chegada: 1 i: 0
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo3 está pronta no tempo 2 last_t: 1 chegada: 2 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo4 está pronta no tempo 3 last_t: 2 chegada: 3 i: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Tarefa Processo2 está pronta no tempo 1 last_t: 0 chegada: 1 i: 0
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo3 está pronta no tempo 2 last_t: 1 chegada: 2 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo4 está pronta no tempo 3 last_t: 2 chegada: 3 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo5 está pronta no tempo 4 last_t: 3 chegada: 4 i: 3
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 5
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 5
+Tempo atual: 6
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 6
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 6
+Tempo atual: 7
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Valid tasks: ['Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 7
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo2 no tempo 7
+Tempo atual: 8
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 8
+Current task: Processo2
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 8
+Tempo atual: 9
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Valid tasks: ['Processo3', 'Processo4', 'Processo5'] at time 9
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo3 no tempo 9
+Tempo atual: 10
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Valid tasks: ['Processo4', 'Processo5'] at time 10
+Current task: Processo3
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 10
+Tempo atual: 11
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Valid tasks: ['Processo4', 'Processo5'] at time 11
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 11
+Tempo atual: 12
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Tarefa Processo5 está pronta no tempo 12 last_t: 11 chegada: 4 i: 11
+Valid tasks: ['Processo4', 'Processo5'] at time 12
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 12
+Tempo atual: 13
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Tarefa Processo5 está pronta no tempo 12 last_t: 11 chegada: 4 i: 11
+Tarefa Processo5 está pronta no tempo 13 last_t: 12 chegada: 4 i: 12
+Valid tasks: ['Processo4', 'Processo5'] at time 13
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo4 no tempo 13
+Tempo atual: 14
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Tarefa Processo5 está pronta no tempo 12 last_t: 11 chegada: 4 i: 11
+Tarefa Processo5 está pronta no tempo 13 last_t: 12 chegada: 4 i: 12
+Tarefa Processo5 está pronta no tempo 14 last_t: 13 chegada: 4 i: 13
+Valid tasks: ['Processo5'] at time 14
+Current task: Processo4
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo5 no tempo 14
+Tempo atual: 15
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Tarefa Processo5 está pronta no tempo 12 last_t: 11 chegada: 4 i: 11
+Tarefa Processo5 está pronta no tempo 13 last_t: 12 chegada: 4 i: 12
+Tarefa Processo5 está pronta no tempo 14 last_t: 13 chegada: 4 i: 13
+Valid tasks: [] at time 15
+Current task: Processo5
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Tarefa Processo3 está pronta no tempo 6 last_t: 5 chegada: 2 i: 5
+Tarefa Processo4 está pronta no tempo 6 last_t: 5 chegada: 3 i: 5
+Tarefa Processo5 está pronta no tempo 6 last_t: 5 chegada: 4 i: 5
+Tarefa Processo3 está pronta no tempo 7 last_t: 6 chegada: 2 i: 6
+Tarefa Processo4 está pronta no tempo 7 last_t: 6 chegada: 3 i: 6
+Tarefa Processo5 está pronta no tempo 7 last_t: 6 chegada: 4 i: 6
+Tarefa Processo3 está pronta no tempo 8 last_t: 7 chegada: 2 i: 7
+Tarefa Processo4 está pronta no tempo 8 last_t: 7 chegada: 3 i: 7
+Tarefa Processo5 está pronta no tempo 8 last_t: 7 chegada: 4 i: 7
+Tarefa Processo4 está pronta no tempo 9 last_t: 8 chegada: 3 i: 8
+Tarefa Processo5 está pronta no tempo 9 last_t: 8 chegada: 4 i: 8
+Tarefa Processo4 está pronta no tempo 10 last_t: 9 chegada: 3 i: 9
+Tarefa Processo5 está pronta no tempo 10 last_t: 9 chegada: 4 i: 9
+Tarefa Processo5 está pronta no tempo 11 last_t: 10 chegada: 4 i: 10
+Tarefa Processo5 está pronta no tempo 12 last_t: 11 chegada: 4 i: 11
+Tarefa Processo5 está pronta no tempo 13 last_t: 12 chegada: 4 i: 12
+Tarefa Processo5 está pronta no tempo 14 last_t: 13 chegada: 4 i: 13
+Valid tasks: ['Processo1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['Processo1', 'Processo2'] at time 1
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 1
+Tempo atual: 2
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Valid tasks: ['Processo1', 'Processo2', 'Processo3'] at time 2
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 2
+Tempo atual: 3
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4'] at time 3
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 3
+Tempo atual: 4
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Valid tasks: ['Processo1', 'Processo2', 'Processo3', 'Processo4', 'Processo5'] at time 4
+Current task: Processo1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Executando tarefa: Processo1 no tempo 4
+Tempo atual: 5
+Tarefa Processo2 está pronta no tempo 2 last_t: 1 chegada: 1 i: 1
+Tarefa Processo2 está pronta no tempo 3 last_t: 2 chegada: 1 i: 2
+Tarefa Processo3 está pronta no tempo 3 last_t: 2 chegada: 2 i: 2
+Tarefa Processo2 está pronta no tempo 4 last_t: 3 chegada: 1 i: 3
+Tarefa Processo3 está pronta no tempo 4 last_t: 3 chegada: 2 i: 3
+Tarefa Processo4 está pronta no tempo 4 last_t: 3 chegada: 3 i: 3
+Tarefa Processo2 está pronta no tempo 5 last_t: 4 chegada: 1 i: 4
+Tarefa Processo3 está pronta no tempo 5 last_t: 4 chegada: 2 i: 4
+Tarefa Processo4 está pronta no tempo 5 last_t: 4 chegada: 3 i: 4
+Tarefa Processo5 está pronta no tempo 5 last_t: 4 chegada: 4 i: 4
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.6
+Tempo atual: 2.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 2.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 3.2
+Tempo atual: 4.2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.2
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.8
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 3
+-----------
+Executando tarefa: T2 no tempo 4.8
+Tempo atual: 5.8
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Valid tasks: ['T1', 'T2'] at time 5.8
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Valid tasks: ['T1', 'T2'] at time 6.3999999999999995
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 6.3999999999999995
+Tempo atual: 7.3999999999999995
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T1', 'T2'] at time 7.3999999999999995
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T1', 'T2'] at time 7.999999999999999
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 7.999999999999999
+Tempo atual: 9.0
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T1 está pronta no tempo 9.0 last_t: 7.999999999999999 chegada: 0 i: 10
+Valid tasks: ['T1', 'T2'] at time 9.0
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T1 está pronta no tempo 9.0 last_t: 7.999999999999999 chegada: 0 i: 10
+Valid tasks: ['T1', 'T2'] at time 9.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 6
+-----------
+Executando tarefa: T1 no tempo 9.6
+Tempo atual: 10.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T1 está pronta no tempo 9.0 last_t: 7.999999999999999 chegada: 0 i: 10
+Tarefa T2 está pronta no tempo 10.6 last_t: 9.6 chegada: 2 i: 12
+Valid tasks: ['T2'] at time 10.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 10.6
+Tempo atual: 11.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T1 está pronta no tempo 9.0 last_t: 7.999999999999999 chegada: 0 i: 10
+Tarefa T2 está pronta no tempo 10.6 last_t: 9.6 chegada: 2 i: 12
+Valid tasks: [] at time 11.6
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T1 está pronta no tempo 5.8 last_t: 4.8 chegada: 0 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T1 está pronta no tempo 9.0 last_t: 7.999999999999999 chegada: 0 i: 10
+Tarefa T2 está pronta no tempo 10.6 last_t: 9.6 chegada: 2 i: 12
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.6
+Tempo atual: 2.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 2.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 3.2
+Tempo atual: 4.2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.2
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.8
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 3
+-----------
+Executando tarefa: T1 no tempo 4.8
+Tempo atual: 5.8
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 5.8
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 6.3999999999999995
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 6.3999999999999995
+Tempo atual: 7.3999999999999995
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 7.3999999999999995
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 7.3999999999999995
+Tempo atual: 8.399999999999999
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.399999999999999
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.999999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 8.999999999999998
+Tempo atual: 9.999999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 9.999999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 10.599999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 6
+-----------
+Executando tarefa: T2 no tempo 10.599999999999998
+Tempo atual: 11.599999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: [] at time 11.599999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.6
+Tempo atual: 2.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 2.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 3.2
+Tempo atual: 4.2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.2
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.8
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 3
+-----------
+Executando tarefa: T1 no tempo 4.8
+Tempo atual: 5.8
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 5.8
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 6.3999999999999995
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 6.3999999999999995
+Tempo atual: 7.3999999999999995
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 7.3999999999999995
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 7.3999999999999995
+Tempo atual: 8.399999999999999
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.399999999999999
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.999999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 8.999999999999998
+Tempo atual: 9.999999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 9.999999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 10.599999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 6
+-----------
+Executando tarefa: T2 no tempo 10.599999999999998
+Tempo atual: 11.599999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: [] at time 11.599999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1
+Valid tasks: ['T1'] at time 1
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.6
+Tempo atual: 2.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 2.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 3.2
+Tempo atual: 4.2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.2
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2'] at time 4.8
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 3
+-----------
+Executando tarefa: T1 no tempo 4.8
+Tempo atual: 5.8
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 5.8
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2'] at time 6.3999999999999995
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 6.3999999999999995
+Tempo atual: 7.3999999999999995
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 7.3999999999999995
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 7.3999999999999995
+Tempo atual: 8.399999999999999
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.399999999999999
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 8.999999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 8.999999999999998
+Tempo atual: 9.999999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 9.999999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2'] at time 10.599999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 6
+-----------
+Executando tarefa: T2 no tempo 10.599999999999998
+Tempo atual: 11.599999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: [] at time 11.599999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 1.0, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 3.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Valid tasks: ['T1', 'T2'] at time 3.0
+Current task: T1
+Overload: False, Overload cost: 1.0, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO']
+Overload detected! Count: 1
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Valid tasks: ['T1', 'T2'] at time 4.0
+Current task: T1
+Overload: True, Overload cost: 1.0, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 4.0
+Tempo atual: 6.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Valid tasks: ['T2'] at time 6.0
+Current task: T1
+Overload: False, Overload cost: 1.0, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 6.0
+Tempo atual: 9.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Valid tasks: [] at time 9.0
+Current task: T2
+Overload: False, Overload cost: 1.0, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO']
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 1.0, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 3.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Valid tasks: ['T1', 'T2', 'T4'] at time 3.0
+Current task: T1
+Overload: False, Overload cost: 1.0, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 1
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Valid tasks: ['T1', 'T2', 'T3', 'T4'] at time 4.0
+Current task: T1
+Overload: True, Overload cost: 1.0, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 4.0
+Tempo atual: 6.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Valid tasks: ['T2', 'T3', 'T4'] at time 6.0
+Current task: T1
+Overload: False, Overload cost: 1.0, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 6.0
+Tempo atual: 9.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Valid tasks: ['T3', 'T4'] at time 9.0
+Current task: T2
+Overload: False, Overload cost: 1.0, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T3 no tempo 9.0
+Tempo atual: 12.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Valid tasks: ['T3', 'T4'] at time 12.0
+Current task: T3
+Overload: False, Overload cost: 1.0, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Valid tasks: ['T3', 'T4'] at time 13.0
+Current task: T3
+Overload: True, Overload cost: 1.0, N Overloads: 2
+-----------
+Executando tarefa: T3 no tempo 13.0
+Tempo atual: 16.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Valid tasks: ['T3', 'T4'] at time 16.0
+Current task: T3
+Overload: False, Overload cost: 1.0, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Valid tasks: ['T3', 'T4'] at time 17.0
+Current task: T3
+Overload: True, Overload cost: 1.0, N Overloads: 3
+-----------
+Executando tarefa: T3 no tempo 17.0
+Tempo atual: 20.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Valid tasks: ['T3', 'T4'] at time 20.0
+Current task: T3
+Overload: False, Overload cost: 1.0, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Valid tasks: ['T3', 'T4'] at time 21.0
+Current task: T3
+Overload: True, Overload cost: 1.0, N Overloads: 4
+-----------
+Executando tarefa: T3 no tempo 21.0
+Tempo atual: 22.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 22.0
+Current task: T3
+Overload: False, Overload cost: 1.0, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Executando tarefa: T4 no tempo 22.0
+Tempo atual: 25.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 25.0
+Current task: T4
+Overload: False, Overload cost: 1.0, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 26.0
+Current task: T4
+Overload: True, Overload cost: 1.0, N Overloads: 5
+-----------
+Executando tarefa: T4 no tempo 26.0
+Tempo atual: 29.0
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 29.0
+Current task: T4
+Overload: False, Overload cost: 1.0, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T4 está pronta no tempo 3.0 last_t: 0 chegada: 2 i: 0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 30.0
+Current task: T4
+Overload: True, Overload cost: 1.0, N Overloads: 6
+-----------
+Executando tarefa: T4 no tempo 30.0
+Tempo atual: 33.0
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 33.0
+Current task: T4
+Overload: False, Overload cost: 1.0, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 7
+Tarefa T2 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 6.0 last_t: 4.0 chegada: 4 i: 2
+Tarefa T4 está pronta no tempo 6.0 last_t: 4.0 chegada: 2 i: 2
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 34.0
+Current task: T4
+Overload: True, Overload cost: 1.0, N Overloads: 7
+-----------
+Executando tarefa: T4 no tempo 34.0
+Tempo atual: 37.0
+Tarefa T3 está pronta no tempo 9.0 last_t: 6.0 chegada: 4 i: 3
+Tarefa T4 está pronta no tempo 9.0 last_t: 6.0 chegada: 2 i: 3
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 37.0
+Current task: T4
+Overload: False, Overload cost: 1.0, N Overloads: 7
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 8
+Tarefa T4 está pronta no tempo 12.0 last_t: 9.0 chegada: 2 i: 4
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T4'] at time 38.0
+Current task: T4
+Overload: True, Overload cost: 1.0, N Overloads: 8
+-----------
+Executando tarefa: T4 no tempo 38.0
+Tempo atual: 41.0
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: [] at time 41.0
+Current task: T4
+Overload: False, Overload cost: 1.0, N Overloads: 8
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.FINALIZADO']
+Tarefa T4 está pronta no tempo 16.0 last_t: 13.0 chegada: 2 i: 6
+Tarefa T4 está pronta no tempo 20.0 last_t: 17.0 chegada: 2 i: 8
+Tarefa T4 está pronta no tempo 22.0 last_t: 21.0 chegada: 2 i: 10
+Valid tasks: ['T1'] at time 0
+Current task: None
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T1 no tempo 0
+Tempo atual: 1.0
+Valid tasks: ['T1'] at time 1.0
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 0
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 1
+Valid tasks: ['T1'] at time 1.6
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 1
+-----------
+Executando tarefa: T1 no tempo 1.6
+Tempo atual: 2.6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2', 'T4'] at time 2.6
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 1
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Valid tasks: ['T1', 'T2', 'T4'] at time 3.2
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 2
+-----------
+Executando tarefa: T1 no tempo 3.2
+Tempo atual: 4.2
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2', 'T3', 'T4'] at time 4.2
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 2
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 3
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Valid tasks: ['T1', 'T2', 'T3', 'T4'] at time 4.8
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 3
+-----------
+Executando tarefa: T1 no tempo 4.8
+Tempo atual: 5.8
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2', 'T3', 'T4'] at time 5.8
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 3
+-----------
+Processos: ['T1: TaskState.PRONTO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 4
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Valid tasks: ['T1', 'T2', 'T3', 'T4'] at time 6.3999999999999995
+Current task: T1
+Overload: True, Overload cost: 0.6, N Overloads: 4
+-----------
+Executando tarefa: T1 no tempo 6.3999999999999995
+Tempo atual: 7.3999999999999995
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Valid tasks: ['T2', 'T3', 'T4'] at time 7.3999999999999995
+Current task: T1
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T2 no tempo 7.3999999999999995
+Tempo atual: 8.399999999999999
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Valid tasks: ['T2', 'T3', 'T4'] at time 8.399999999999999
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 4
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 5
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Valid tasks: ['T2', 'T3', 'T4'] at time 8.999999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 5
+-----------
+Executando tarefa: T2 no tempo 8.999999999999998
+Tempo atual: 9.999999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Valid tasks: ['T2', 'T3', 'T4'] at time 9.999999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 5
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.PRONTO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 6
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Valid tasks: ['T2', 'T3', 'T4'] at time 10.599999999999998
+Current task: T2
+Overload: True, Overload cost: 0.6, N Overloads: 6
+-----------
+Executando tarefa: T2 no tempo 10.599999999999998
+Tempo atual: 11.599999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Valid tasks: ['T3', 'T4'] at time 11.599999999999998
+Current task: T2
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Executando tarefa: T3 no tempo 11.599999999999998
+Tempo atual: 12.599999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Valid tasks: ['T3', 'T4'] at time 12.599999999999998
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 6
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 7
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Valid tasks: ['T3', 'T4'] at time 13.199999999999998
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 7
+-----------
+Executando tarefa: T3 no tempo 13.199999999999998
+Tempo atual: 14.199999999999998
+Tarefa T2 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T4 está pronta no tempo 2.6 last_t: 1.6 chegada: 2 i: 2
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Valid tasks: ['T3', 'T4'] at time 14.199999999999998
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 7
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 8
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Valid tasks: ['T3', 'T4'] at time 14.799999999999997
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 8
+-----------
+Executando tarefa: T3 no tempo 14.799999999999997
+Tempo atual: 15.799999999999997
+Tarefa T2 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T3 está pronta no tempo 4.2 last_t: 3.2 chegada: 4 i: 4
+Tarefa T4 está pronta no tempo 4.2 last_t: 3.2 chegada: 2 i: 4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Valid tasks: ['T3', 'T4'] at time 15.799999999999997
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 8
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 9
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Valid tasks: ['T3', 'T4'] at time 16.4
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 9
+-----------
+Executando tarefa: T3 no tempo 16.4
+Tempo atual: 17.4
+Tarefa T2 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T3 está pronta no tempo 5.8 last_t: 4.8 chegada: 4 i: 6
+Tarefa T4 está pronta no tempo 5.8 last_t: 4.8 chegada: 2 i: 6
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Valid tasks: ['T3', 'T4'] at time 17.4
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 9
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 10
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Valid tasks: ['T3', 'T4'] at time 18.0
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 10
+-----------
+Executando tarefa: T3 no tempo 18.0
+Tempo atual: 19.0
+Tarefa T2 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 4 i: 8
+Tarefa T4 está pronta no tempo 7.3999999999999995 last_t: 6.3999999999999995 chegada: 2 i: 8
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Valid tasks: ['T3', 'T4'] at time 19.0
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 10
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 11
+Tarefa T3 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 4 i: 9
+Tarefa T4 está pronta no tempo 8.399999999999999 last_t: 7.3999999999999995 chegada: 2 i: 9
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Valid tasks: ['T3', 'T4'] at time 19.6
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 11
+-----------
+Executando tarefa: T3 no tempo 19.6
+Tempo atual: 20.6
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Valid tasks: ['T3', 'T4'] at time 20.6
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 11
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 12
+Tarefa T3 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 4 i: 11
+Tarefa T4 está pronta no tempo 9.999999999999998 last_t: 8.999999999999998 chegada: 2 i: 11
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Valid tasks: ['T3', 'T4'] at time 21.200000000000003
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 12
+-----------
+Executando tarefa: T3 no tempo 21.200000000000003
+Tempo atual: 22.200000000000003
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Valid tasks: ['T3', 'T4'] at time 22.200000000000003
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 12
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 13
+Tarefa T3 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 4 i: 13
+Tarefa T4 está pronta no tempo 11.599999999999998 last_t: 10.599999999999998 chegada: 2 i: 13
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Valid tasks: ['T3', 'T4'] at time 22.800000000000004
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 13
+-----------
+Executando tarefa: T3 no tempo 22.800000000000004
+Tempo atual: 23.800000000000004
+Tarefa T4 está pronta no tempo 12.599999999999998 last_t: 11.599999999999998 chegada: 2 i: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Valid tasks: ['T3', 'T4'] at time 23.800000000000004
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 13
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 14
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Valid tasks: ['T3', 'T4'] at time 24.400000000000006
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 14
+-----------
+Executando tarefa: T3 no tempo 24.400000000000006
+Tempo atual: 25.400000000000006
+Tarefa T4 está pronta no tempo 14.199999999999998 last_t: 13.199999999999998 chegada: 2 i: 16
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Valid tasks: ['T3', 'T4'] at time 25.400000000000006
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 14
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.PRONTO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 15
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Valid tasks: ['T3', 'T4'] at time 26.000000000000007
+Current task: T3
+Overload: True, Overload cost: 0.6, N Overloads: 15
+-----------
+Executando tarefa: T3 no tempo 26.000000000000007
+Tempo atual: 27.000000000000007
+Tarefa T4 está pronta no tempo 15.799999999999997 last_t: 14.799999999999997 chegada: 2 i: 18
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 27.000000000000007
+Current task: T3
+Overload: False, Overload cost: 0.6, N Overloads: 15
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Executando tarefa: T4 no tempo 27.000000000000007
+Tempo atual: 28.000000000000007
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 28.000000000000007
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 15
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 16
+Tarefa T4 está pronta no tempo 17.4 last_t: 16.4 chegada: 2 i: 20
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 28.60000000000001
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 16
+-----------
+Executando tarefa: T4 no tempo 28.60000000000001
+Tempo atual: 29.60000000000001
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 29.60000000000001
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 16
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 17
+Tarefa T4 está pronta no tempo 19.0 last_t: 18.0 chegada: 2 i: 22
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 30.20000000000001
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 17
+-----------
+Executando tarefa: T4 no tempo 30.20000000000001
+Tempo atual: 31.20000000000001
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 31.20000000000001
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 17
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 18
+Tarefa T4 está pronta no tempo 20.6 last_t: 19.6 chegada: 2 i: 24
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 31.80000000000001
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 18
+-----------
+Executando tarefa: T4 no tempo 31.80000000000001
+Tempo atual: 32.80000000000001
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 32.80000000000001
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 18
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 19
+Tarefa T4 está pronta no tempo 22.200000000000003 last_t: 21.200000000000003 chegada: 2 i: 26
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 33.40000000000001
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 19
+-----------
+Executando tarefa: T4 no tempo 33.40000000000001
+Tempo atual: 34.40000000000001
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 34.40000000000001
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 19
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 20
+Tarefa T4 está pronta no tempo 23.800000000000004 last_t: 22.800000000000004 chegada: 2 i: 28
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 35.000000000000014
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 20
+-----------
+Executando tarefa: T4 no tempo 35.000000000000014
+Tempo atual: 36.000000000000014
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 36.000000000000014
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 20
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 21
+Tarefa T4 está pronta no tempo 25.400000000000006 last_t: 24.400000000000006 chegada: 2 i: 30
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 36.600000000000016
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 21
+-----------
+Executando tarefa: T4 no tempo 36.600000000000016
+Tempo atual: 37.600000000000016
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 37.600000000000016
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 21
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 22
+Tarefa T4 está pronta no tempo 27.000000000000007 last_t: 26.000000000000007 chegada: 2 i: 32
+Valid tasks: ['T4'] at time 38.20000000000002
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 22
+-----------
+Executando tarefa: T4 no tempo 38.20000000000002
+Tempo atual: 39.20000000000002
+Valid tasks: ['T4'] at time 39.20000000000002
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 22
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 23
+Valid tasks: ['T4'] at time 39.80000000000002
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 23
+-----------
+Executando tarefa: T4 no tempo 39.80000000000002
+Tempo atual: 40.80000000000002
+Valid tasks: ['T4'] at time 40.80000000000002
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 23
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 24
+Valid tasks: ['T4'] at time 41.40000000000002
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 24
+-----------
+Executando tarefa: T4 no tempo 41.40000000000002
+Tempo atual: 42.40000000000002
+Valid tasks: ['T4'] at time 42.40000000000002
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 24
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 25
+Valid tasks: ['T4'] at time 43.00000000000002
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 25
+-----------
+Executando tarefa: T4 no tempo 43.00000000000002
+Tempo atual: 44.00000000000002
+Valid tasks: ['T4'] at time 44.00000000000002
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 25
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 26
+Valid tasks: ['T4'] at time 44.60000000000002
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 26
+-----------
+Executando tarefa: T4 no tempo 44.60000000000002
+Tempo atual: 45.60000000000002
+Valid tasks: ['T4'] at time 45.60000000000002
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 26
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 27
+Valid tasks: ['T4'] at time 46.200000000000024
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 27
+-----------
+Executando tarefa: T4 no tempo 46.200000000000024
+Tempo atual: 47.200000000000024
+Valid tasks: ['T4'] at time 47.200000000000024
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 27
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 28
+Valid tasks: ['T4'] at time 47.800000000000026
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 28
+-----------
+Executando tarefa: T4 no tempo 47.800000000000026
+Tempo atual: 48.800000000000026
+Valid tasks: ['T4'] at time 48.800000000000026
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 28
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.PRONTO']
+Overload detected! Count: 29
+Valid tasks: ['T4'] at time 49.40000000000003
+Current task: T4
+Overload: True, Overload cost: 0.6, N Overloads: 29
+-----------
+Executando tarefa: T4 no tempo 49.40000000000003
+Tempo atual: 50.40000000000003
+Valid tasks: [] at time 50.40000000000003
+Current task: T4
+Overload: False, Overload cost: 0.6, N Overloads: 29
+-----------
+Processos: ['T1: TaskState.FINALIZADO', 'T2: TaskState.FINALIZADO', 'T3: TaskState.FINALIZADO', 'T4: TaskState.FINALIZADO']

@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "nome": "T1",
+      "chegada": 0,
+      "duracao": 5,
+      "prioridade": 1,
+      "deadline": 10
+    },
+    {
+      "nome": "T2",
+      "chegada": 2,
+      "duracao": 3,
+      "prioridade": 2,
+      "deadline": 1
+    }
+  ],
+  "algoritmos": [
+    {
+      "name": "fcfs",
+      "preemptable": false
+    },
+    {
+      "name": "rr",
+      "preemptable": true
+    }
+  ]
+}

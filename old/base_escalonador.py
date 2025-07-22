@@ -2,7 +2,7 @@ import random
 import time
 from collections import deque
 from abc import ABC, abstractmethod
-from Tarefas import TarefaCAV
+from old.Tarefas import TarefaCAV
 import CAV
 from esclonadores import EscalonadorFIFO, EscalonadorRoundRobin, EscalonadorPrioridade
 # Função para criar algumas tarefas fictícias

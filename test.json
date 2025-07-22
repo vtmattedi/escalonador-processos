@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "nome": "T1",
+      "chegada": 0,
+      "duracao": 5,
+      "prioridade": 1,
+      "deadline": 10
+    },
+    {
+      "nome": "T2",
+      "chegada": 2,
+      "duracao": 3,
+      "prioridade": 2,
+      "deadline": 7
+    },
+    {
+      "nome": "T3",
+      "chegada": 4,
+      "duracao": 10,
+      "prioridade": 2
+    },
+    {
+      "nome": "T4",
+      "chegada": 2,
+      "duracao": 15,
+      "prioridade": 2
+    }
+  ],
+  "algoritmos": [
+    {
+      "name": "hrrn",
+      "preemptable": true
+    }
+  ]
+}
