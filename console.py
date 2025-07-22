@@ -16,7 +16,7 @@ def show_cursor(val):
     else:
         print('\033[?25l', end='')
 
-def table(headers, rows, align=None):
+def table(headers, rows):
     """Print a table with headers and rows."""
     # total_width = Each header's length + 2 spaces for each  + 2 borders + (len(headers) - 1) for the separators
     total_width = sum(LineLength(header) + 2 for header in headers) + 2 + len(headers) - 1
@@ -25,11 +25,15 @@ def table(headers, rows, align=None):
     line = '+' + '-' * (total_width - 2) + '+'
     lines.append(line)
 
-
+    for row in rows:
+        row_str = '|'
+        for i, cell in enumerate(row):
+                row_str += f' {cell} |'
+        lines.append(row_str)
     # Last line (header)
     line = '+' + '-' * (total_width - 2) + '+'
     lines.append(line)
-    print(table_str)
+    return '\n'.join(lines)
 
 def mergeLines(sprite1:str, sprite2:str, padding=4):
     lines1 = sprite1.split('\n')

@@ -4,7 +4,7 @@ import time
 from math import floor
 from algoritimos import algoritimo_base, logToFile
 from snapshot import snapshot as Snapshot
-from task import TaskState
+from task import TaskState, TarefaCAV
 import console
 from enum import Enum
 
@@ -128,19 +128,22 @@ class escalonador:
         task_h = []
         v_div = console.uline("|") + "\n|"* ((len(names) - 1)* 2 ) + "\n-"
        
+        last_exec = None
         for i, s in enumerate(self.snapshots):
             # imprime apenas os últimos max_ticks snapshots
             if len(self.snapshots) - i > max_ticks:
                 continue
             this_time = []
             for t in s.processos:
-                if s.at_overload:
+                logToFile(f"Processo: {t.nome}, last_exec: {last_exec}")
+                if s.at_overload and t.nome == last_exec:
                     this_time.append(instantType.OVERLOAD)
                 elif t.estado == TaskState.EXECUTANDO:
+                    last_exec = t.nome
+                    logToFile(f"Tarefa {last_exec} está executando no tempo {s.tempo}")
                     this_time.append(instantType.EXECUTING)
                 elif t.estado == TaskState.PRONTO and s.tempo > t.chegada:
                     last_t = self.snapshots[i - 1].tempo if i > 0 else 0
-                    logToFile(f"Tarefa {t.nome} está pronta no tempo {s.tempo} last_t: {last_t} chegada: {t.chegada} i: {i}")
                     if last_t < t.chegada:
                         this_time.append(instantType.HALF_WAITING)
                     else:
@@ -176,6 +179,8 @@ class escalonador:
        
         frame +=  "\n\n" + console.insert_color(task_header, "1;4")
         frame += "\n" + task_frame
+        # table = console.table(headers=TarefaCAV.__dict__.keys(), rows=[t.__dict__.values() for t in self.tarefas])
+        # frame += "\n\n" + console.hcenter(table)
         lcount = os.get_terminal_size().lines - 1
         console.home()
         for line in frame.split("\n"):
