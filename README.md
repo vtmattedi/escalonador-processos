@@ -1,10 +1,13 @@
 ## Trabalho de SO 2025.1
 
+Simulador de algoritimos de escalonamento
+
 ### Simulador de escalonador
 
 #### Pré-Requisitos:
 
 * Pyhton (testado no 3.11)
+* Tabulate: `pip install tabule`
 
 #### Uso:
 
@@ -22,7 +25,8 @@ Ao utilizar um arquivo .json ao inves de modificar o main.py para simular difere
 
 * "algoritimos":[{"name":string, "options": {options}}, ...]
 * "tasks": [{"nome": string, "chegada": int, "duracao": int, "deadline": int, "prioridade": int}, ...]
-  Notas:
+
+#### Notas:
 
 0. ~algoritimos tem chaves em ingles porque eu não gostei de preemptivel~
 1. Caso um arquivo seja lido que não contem um json valido, o programa encerra-rá.
@@ -32,12 +36,12 @@ Ao utilizar um arquivo .json ao inves de modificar o main.py para simular difere
 
 Tabela de algoritimos disponiveis:
 
-| Nome           | Descrição                                      | Opções Suportadas           |
-|----------------|------------------------------------------------|-----------------------------|
-| fcfs           | First-Come, First-Serve (FIFO)                 | -                           |
-| sjf            | Shortest Job First                             | `preemptive`                |
-| edf            | Earliest Deadline First                        | `preemptive`                |
-| rr             | Round Robin                                    | `quantum`                   |
-| hrrn           | Highest Response Ratio Next                    | `preemptive`                |
-| lottery        | Escalonamento Loteria Justa                    | `preemptive`                |
-| priority       | Escalonamento por Prioridade                   | `preemptive`, `inverted`    |
+| Nome     | Descrição                    | Opções Suportadas          |
+| -------- | ------------------------------ | ---------------------------- |
+| fcfs     | First-Come, First-Serve (FIFO) | -                            |
+| sjf      | Shortest Job First             | `preemptive`               |
+| edf      | Earliest Deadline First        | `preemptive`               |
+| rr       | Round Robin                    | `quantum`                  |
+| hrrn     | Highest Response Ratio Next    | `preemptive`               |
+| lottery  | Escalonamento Loteria Justa    | `preemptive`               |
+| priority | Escalonamento por Prioridade   | `preemptive`, `inverted` |
