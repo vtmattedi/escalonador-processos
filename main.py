@@ -11,15 +11,15 @@ from escalonador import escalonador as Escalonador
 # Caso o arquivo de entrada não seja especificado, utiliza os valores padrão:
 
 # Algoritmos, Preemptabilidade
-# Cada tupla contém o algoritmo e se é preemptável ou não
+# Cada tupla contém o algoritmo e suas opções
 ALGORITMOS = [
-    (algoritimos.escalonador_fcfs, False),
-    (algoritimos.escalonador_sjf, False),
-    (algoritimos.escalonador_rr, False),
+    (algoritimos.escalonador_fcfs, None),
+    (algoritimos.escalonador_sjf, None),
+    (algoritimos.escalonador_rr, None),
     (algoritimos.escalonador_priority, False),
-    (algoritimos.escalonador_edf, False),
-    (algoritimos.escalonador_lottery, False),
-    (algoritimos.escalonador_hrrn, False)
+    (algoritimos.escalonador_edf, None),
+    (algoritimos.escalonador_lottery, None),
+    (algoritimos.escalonador_hrrn, None)
 ]
 
 # Lista de tarefas iniciais
@@ -73,7 +73,11 @@ if __name__ == "__main__":
             quit()
         # Read tasks from file
         with open(args.file, "r") as f:
-            file = json.load(f)
+            try:
+                file = json.load(f)
+            except json.JSONDecodeError:
+                print(f"Erro ao ler o arquivo JSON: {args.file}")
+                quit()
             if "tasks" in file:
                 START_TASKS = []
                 for t in file["tasks"]:
@@ -81,7 +85,10 @@ if __name__ == "__main__":
             if "algoritmos" in file:
                 ALGORITMOS = []
                 for a in file["algoritmos"]:
-                    ALGORITMOS.append((getattr(algoritimos, "escalonador_" + a["name"]), a["preemptable"]))
+                    options = None
+                    if "options" in a:
+                        options = a["options"]
+                    ALGORITMOS.append((getattr(algoritimos, "escalonador_" + a["name"]), options))
              
 
     # Desabilita o cursor do console para uma melhor visualização
@@ -89,9 +96,13 @@ if __name__ == "__main__":
     
     cav_id = 0
     # Simula cada algoritmo com as tarefas criadas
-    for alg, preemptable in ALGORITMOS:
+    for alg, opts in ALGORITMOS:
         # Cria uma nova instância de CAV para cada algoritmo
-        simulator = Escalonador(alg(), preemptable, time_slice=args.time_slice, sobrecarga=args.overload_cost)
+        if opts is None:
+            algoritimo = alg()
+        else:
+            algoritimo = alg(**opts)
+        simulator = Escalonador(algoritimo, time_slice=args.time_slice, sobrecarga=args.overload_cost)
         cav = CAV(cav_id, escalonador=simulator)
         cav_id += 1 # Incrementa o ID do CAV para cada iteração
         for _task in copy.deepcopy(START_TASKS): #cria novas instâncias das tasks iniciais
@@ -99,7 +110,7 @@ if __name__ == "__main__":
         
         cav.simular(args.t)
         result = cav.get_statistics()
-        data.append((alg.__name__, preemptable, cav.id, result))
+        data.append((algoritimo.name, algoritimo.preemptive, cav.id, result))
         if args.manual:
             input(f"\033[93;1mPressione Enter para continuar com o próximo algoritmo...\033[0m")
 

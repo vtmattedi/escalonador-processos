@@ -8,60 +8,67 @@
       "deadline": 10
     },
     {
-      "nome": "T-LONG",
+      "nome": "T2",
       "chegada": 2,
       "duracao": 10,
-      "prioridade": 2
+      "prioridade": 2,
+      "deadline": 20
     },
     {
       "nome": "T3",
       "chegada": 4,
       "duracao": 7,
-      "prioridade": 2
+      "prioridade": 2,
+      "deadline": 18
+    },
+    {
+      "nome": "T4",
+      "chegada": 2,
+      "duracao": 7,
+      "prioridade": 2,
+      "deadline": 16
+    },
+    {
+      "nome": "T5",
+      "chegada": 4,
+      "duracao": 3,
+      "prioridade": 2,
+      "deadline": 14
+    },
+    {
+      "nome": "T6",
+      "chegada": 6,
+      "duracao": 5,
+      "prioridade": 2,
+      "deadline": 22
+    },
+    {
+      "nome": "T7",
+      "chegada": 5,
+      "duracao": 3,
+      "prioridade": 2,
+      "deadline": 13
     },
     {
       "nome": "T8",
       "chegada": 5,
       "duracao": 5,
-      "prioridade": 2
-    },
-        {
-      "nome": "T4",
-      "chegada": 2,
-      "duracao": 7,
-      "prioridade": 2
-    },
-     {
-      "nome": "T5",
-      "chegada": 4,
-      "duracao": 3,
-      "prioridade": 2
-    },
-     {
-      "nome": "T7",
-      "chegada": 5,
-      "duracao": 3,
-      "prioridade": 2
-    },
-     {
-      "nome": "T6",
-      "chegada": 6,
-      "duracao": 5,
-      "prioridade": 2
+      "prioridade": 2,
+      "deadline": 19
     }
   ],
   "algoritmos": [
     {
-      "name": "hrrn",
-      "preemptable": false
+      "name": "edf",
+      "options": {
+        "preemptable": true,
+        "quantum": 2
+      }
     },
     {
-        "name": "sjf",
-        "preemptable": false
-    },
-    {
-      "name": "hrrn",
-      "preemptable": true
+      "name": "rr",
+      "preemptable": true,
+      "quantum": 2
     }
   ]
 }

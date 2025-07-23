@@ -86,6 +86,29 @@ def LineLength(text):
             count += 1
     return count
 
+def mergeLinesWithSpaceBetween(sprite1:str, sprite2:str):
+    lines1 = sprite1.split('\n')
+    line1_len = getMaxWidth(lines1)
+    for i in range(len(lines1)):
+        lines1[i] = lines1[i].ljust(line1_len)
+    lines2 = sprite2.split('\n')
+    line2_len = getMaxWidth(lines2)
+    for i in range(len(lines2)):
+        lines2[i] = lines2[i].ljust(line2_len)
+    max_lines = max(len(lines1), len(lines2))
+    merged_lines = []
+    for i in range(max_lines):
+        line1 = lines1[i] if i < len(lines1) else ''
+        line2 = lines2[i] if i < len(lines2) else ''
+        total_length = LineLength(line1) + LineLength(line2)
+        while total_length < os.get_terminal_size().columns - 4:
+            line1 += ' '
+            total_length = LineLength(line1) + LineLength(line2)
+        merged_line = line1  + line2
+        merged_lines.append(merged_line)
+    merged_sprite = '\n'.join(merged_lines)
+    return merged_sprite
+
 def getMaxWidth(textArray: list) -> int:
     max_width = 0
     for line in textArray:

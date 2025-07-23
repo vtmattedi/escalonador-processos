@@ -23,8 +23,31 @@
   ],
   "algoritmos": [
     {
+      "name": "priority",
+      "options": {
+        "preemptive": true,
+        "quantum": 2
+      }
+    },
+    {
+      "name": "priority",
+      "options": {
+        "preemptive": true,
+        "inverted": true
+      }
+    },
+    {
       "name": "hrrn",
-      "preemptable": false
+      "options": {
+        "preemptive": true,
+        "quantum": 2
+      }
+    },
+    {
+      "name": "lottery",
+      "options": {
+        "preemptive": true
+      }
     }
   ]
 }
