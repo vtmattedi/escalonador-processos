@@ -13,18 +13,17 @@ from escalonador import escalonador as Escalonador
 # Algoritmos, Preemptabilidade
 # Cada tupla contém o algoritmo e suas opções
 ALGORITMOS = [
-    (algoritimos.escalonador_fcfs, None),
-    (algoritimos.escalonador_sjf, None),
-    (algoritimos.escalonador_rr, None),
-    (algoritimos.escalonador_priority, False),
-    (algoritimos.escalonador_edf, None),
-    (algoritimos.escalonador_lottery, None),
-    (algoritimos.escalonador_hrrn, None)
+    (algoritimos.escalonador_edf, {"preemptive": True, "quantum": 2}),
+    (algoritimos.escalonador_lottery, {"preemptive": True,  "quantum": 2}),
+    (algoritimos.escalonador_rr, {"preemptive": True, "quantum": 2}),
+    (algoritimos.escalonador_priority, {"preemptive": True}),
+    (algoritimos.escalonador_fcfs, {"preemptive": False}),
+    (algoritimos.escalonador_sjf, {"preemptive": False}),
 ]
 
 # Lista de tarefas iniciais
 START_TASKS = [
-    TarefaCAV("Processo1", chegada=0, duracao=5, prioridade=1, deadline=10),
+    TarefaCAV("Processo1", chegada=0, duracao=5, prioridade=1, ),
     TarefaCAV("Processo2", chegada=1, duracao=3, prioridade=2, deadline=8),
     TarefaCAV("Processo3", chegada=2, duracao=2, prioridade=1, deadline=5),
     TarefaCAV("Processo4", chegada=3, duracao=4, prioridade=3, deadline=12),
@@ -33,14 +32,8 @@ START_TASKS = [
 # Estes valores podem ser ajustados via linha de comando
 OVERLOAD_COST = 0.6  # Tempo de sobrecarga
 TIME_SLICE = 1 # Tempo entre cada tick do escalonador
-# Função para criar tarefas a partir de START_TASKS
-# Nescessária para criar novas instâncias de TarefaCAV ao utilizar varios algoritmos
-# Caso contrário, todas as instâncias de TarefaCAV seriam as mesmas e portatnto, teriam terminado apos a primeira execução
-def create_tasks():
-    tasks = []
-    for i in range(len(START_TASKS)):
-        tasks.append(TarefaCAV(**START_TASKS[i].__dict__))
-    return tasks
+
+
 if __name__ == "__main__":
     # Argumentos de linha de comando
     parser = argparse.ArgumentParser(description="Simulador de Escalonamento de Processos",
@@ -102,12 +95,13 @@ if __name__ == "__main__":
             algoritimo = alg()
         else:
             algoritimo = alg(**opts)
-        simulator = Escalonador(algoritimo, time_slice=args.time_slice, sobrecarga=args.overload_cost)
-        cav = CAV(cav_id, escalonador=simulator)
+        # Cria uma nova instância de CAV com o escalonador
+        cav = CAV(cav_id, escalonador=Escalonador(algoritimo, time_slice=args.time_slice, sobrecarga=args.overload_cost))
         cav_id += 1 # Incrementa o ID do CAV para cada iteração
+        
         for _task in copy.deepcopy(START_TASKS): #cria novas instâncias das tasks iniciais
             cav.adicionar_tarefa(_task)
-        
+        # Inicia a simulação do CAV
         cav.simular(args.t)
         result = cav.get_statistics()
         data.append((algoritimo.name, algoritimo.preemptive, cav.id, result))

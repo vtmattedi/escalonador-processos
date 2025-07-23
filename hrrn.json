@@ -59,16 +59,10 @@
   ],
   "algoritmos": [
     {
-      "name": "edf",
-      "options": {
-        "preemptable": true,
-        "quantum": 2
-      }
+      "name": "edf"
     },
     {
-      "name": "rr",
-      "preemptable": true,
-      "quantum": 2
+      "name": "rr"
     }
   ]
 }

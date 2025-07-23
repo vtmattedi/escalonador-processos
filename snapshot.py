@@ -1,4 +1,5 @@
 import copy
+
 class snapshot:
     def __init__(self, processos, tempo, algoritimo=None, preemptable=None, at_overload=False):
         self.algoritimo = algoritimo

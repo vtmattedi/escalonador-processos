@@ -18,11 +18,15 @@
   "algoritmos": [
     {
       "name": "fcfs",
-      "preemptable": false
+      "options": {
+        "preemptive": false
+      }
     },
     {
       "name": "rr",
-      "preemptable": true
+      "options": {
+        "preemptive": true
+      }
     }
   ]
 }

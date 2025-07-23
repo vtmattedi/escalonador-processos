@@ -24,6 +24,7 @@ class TarefaCAV:
         # self.softCoreAfinity = None  # set and managed by the SO to avoid task migration 
 
     def executar(self, tempo_atual, time_slice=1, continue_after_deadline=True):
+        
         tempo_execucao = min(self.restante, time_slice)
 
         # Set the response time on the first execution
@@ -36,7 +37,9 @@ class TarefaCAV:
         if tempo > self.deadline and self.restante > 0:
             self.taskFailed = True # indica que a tarefa estorou deadline
             if not continue_after_deadline:
+                self.restante = 0
                 self.finished(tempo)
+                return
    
             # self.estado = TaskState.FINALIZADO
             # self.turn_around_time = tempo - self.chegada

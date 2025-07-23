@@ -149,14 +149,18 @@ def home():
 def line():
     """Print a horizontal line across the console."""
     print('\033[1;30m' + '#' * os.get_terminal_size().columns + '\x1b[0m', end='')
+
 def hprint(text, mode= 0):
     """Print text centered in the console."""
     print(hcenter(text,mode=mode, width=os.get_terminal_size().columns), end='\033[0k\n')
+
 def fprint(text):
     """Print text and clear the rest of the line."""
     hprint(text, 2)
+
 def fow_clear():
     print('\033[J', end='')
+
 arrowLeft = "←"
 arrowRight = "→"
 arrowUp = "↑"

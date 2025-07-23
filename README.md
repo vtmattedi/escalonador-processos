@@ -41,7 +41,7 @@ Tabela de algoritimos disponiveis:
 | fcfs     | First-Come, First-Serve (FIFO) | -                            |
 | sjf      | Shortest Job First             | `preemptive`               |
 | edf      | Earliest Deadline First        | `preemptive`               |
-| rr       | Round Robin                    | `quantum`                  |
+| rr       | Round Robin                    | -                            |
 | hrrn     | Highest Response Ratio Next    | `preemptive`               |
 | lottery  | Escalonamento Loteria Justa    | `preemptive`               |
 | priority | Escalonamento por Prioridade   | `preemptive`, `inverted` |

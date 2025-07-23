@@ -78,12 +78,13 @@ class escalonador:
                 if self.current_task is not None and self.current_task.estado == TaskState.EXECUTANDO:
                     # Se a tarefa atual não está na lista de tarefas válidas, marca como pronta
                     # e re-adiciona ela para ser escalonada novamente
+                    self.at_overload = True
                     self.current_task.estado = TaskState.PRONTO
                     valid_tasks.append(self.current_task)
                 # Proxima tarefa a ser executada
                 self.current_task = self.algoritmo.escalonar(valid_tasks, self.tempo)
-                if old_task is not None and old_task != self.current_task and old_task.estado != TaskState.FINALIZADO:
-                    self.at_overload = True
+                # if old_task is not None and old_task != self.current_task and old_task.estado != TaskState.FINALIZADO:
+                #     self.at_overload = True
                     
         # Se temos sobrecarga, adiciona o custo de sobrecarga ao tempo
         self.last_t = self.tempo
@@ -100,6 +101,7 @@ class escalonador:
             # para o proximo tick inteiro
             self.tempo = floor(self.tempo + self.time_slice)  # Avança o tempo se não houver tarefa atual
         return
+    
     def print_history(self):
         """Imprime o histórico de snapshots do escalonador."""
         preemptable =  "Preemptável" if self.preemptivo else "Não Preemptável"
@@ -233,6 +235,8 @@ class escalonador:
                     service_time = t.duracao - t.restante
                     fake_tat = self.tempo - t.chegada
                     wait_time = fake_tat - service_time
+                if not wait_time:
+                    wait_time = 0
                 avgs["A: WT"] = avgs.get("A: WT", 0) + wait_time
                 counts["A: WT"] = counts.get("A: WT", 0) + 1
             if t.response_time is not None:
@@ -268,9 +272,9 @@ class escalonador:
         """Tira um instantâneo do estado atual do escalonador."""
         self.snapshots.append(Snapshot(self.tarefas, self.tempo, self.algoritmo, self.preemptivo, self.at_overload))
         self.print_history()
+    
     def simular_sync(self, delay=0.5):
         """Executa o escalonador até todas as tarefas serem finalizadas."""
-        
         while not all(t.estado == TaskState.FINALIZADO for t in self.tarefas):
             self.tick()
             self.take_snapshot()
