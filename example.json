@@ -39,15 +39,21 @@
   "algoritmos": [
     {
       "name": "fcfs",
-      "preemptable": true
+      "options": {
+        "preemptive": false
+      }
     },
     {
       "name": "sjf",
-      "preemptable": true
+      "options": {
+        "preemptive": true
+      }
     },
     {
       "name": "rr",
-      "preemptable": true
+      "options": {
+        "preemptive": true
+      }
     },
     {
       "name": "priority",
