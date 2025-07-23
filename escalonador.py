@@ -112,6 +112,8 @@ class escalonador:
         line += console.bold(f"T: {self.tempo:2.1f} ")
         line += f"{console.italic('t.u.')}"
         frame = console.hcenter(line)
+        line = f"({console.italic(f'time slice: {self.time_slice}, custo sobrecarga: {self.overload_cost}')})"
+        frame += "\n" + console.hcenter(line)
         names = [t.nome for t in self.snapshots[0].processos]
         max_len = max(len(name) for name in names)
         max_len = max(max_len, 10)  # Ensure minimum length for task names
@@ -126,13 +128,23 @@ class escalonador:
         task_frame= task_frame[1:]
         task_h = []
         v_div = console.uline("|") + "\n|"* ((len(names) - 1)* 2 ) + "\n-"
-       
+        avgs = {}
+        avgs["#N OVL"] = 0
+        avgs["#Fail"] = 0
+        avgs["A: TAT"] = 0
+        avgs["A: WT"] = 0
+        avgs["A: RT"] = 0
+        counts = {}
         last_exec = None
         for i, s in enumerate(self.snapshots):
             # imprime apenas os últimos max_ticks snapshots
             if len(self.snapshots) - i > max_ticks:
+                if s.at_overload:
+                    avgs["#N OVL"] = avgs.get("#N OVL", 0) + 1
                 continue
             this_time = []
+            if s.at_overload:
+                avgs["#N OVL"] = avgs.get("#N OVL", 0) + 1
             for t in s.processos:
                 if s.at_overload and t.nome == last_exec:
                     this_time.append((instantType.OVERLOAD, t.taskFailed))
@@ -200,14 +212,44 @@ class escalonador:
             )
         task_frame = "\n\n" + console.insert_color(task_header, "1;4") + "\n" + task_frame
         task_frame = console.mergeLinesWithSpaceBetween(task_frame, table)
-        frame += "\n\n" + task_frame
+        frame += "\n" + task_frame
         legenda = f"Legenda: "
         for it in instantType:
             if it == instantType.NOT_ON_LIST or it == instantType.HALF_WAITING:
                 continue
             legenda += f" \033[{instantTypeToColor(it)}m{it.name}\033[0m"
         legenda += f" [XXXX]: Tarefa Falhou"   
+
+        for t in self.tarefas:
+            if t.taskFailed:
+                avgs["#Fail"] += 1
+            if t.turn_around_time is not None:
+                avgs["A: TAT"] = avgs.get("A: TAT", 0) + t.turn_around_time
+                counts["A: TAT"] = counts.get("A: TAT", 0) + 1
+            if  self.tempo >= t.chegada :
+                if t.estado == TaskState.FINALIZADO:
+                    wait_time = t.wait_time
+                else:
+                    service_time = t.duracao - t.restante
+                    fake_tat = self.tempo - t.chegada
+                    wait_time = fake_tat - service_time
+                avgs["A: WT"] = avgs.get("A: WT", 0) + wait_time
+                counts["A: WT"] = counts.get("A: WT", 0) + 1
+            if t.response_time is not None:
+                avgs["A: RT"] = avgs.get("A: RT", 0) + t.response_time
+                counts["A: RT"] = counts.get("A: RT", 0) + 1
+        for k, v in avgs.items():
+            if k in counts and counts[k] > 0:
+                avgs[k] = f"{v / counts[k]:.2f}"
+        table_data = [[*avgs.keys()], [*avgs.values()]]
+        table_live_stat = tabulate.tabulate(
+            tabular_data = table_data,
+            tablefmt="fancy_grid",
+            stralign="center",
+            disable_numparse=True,
+        )
         frame += "\n" + console.hcenter(legenda)
+        frame += "\n\n" + console.hcenter(table_live_stat) + "\n"
         
         # frame += "\n\n" + console.hcenter(table)
         # table = console.table(headers=TarefaCAV.__dict__.keys(), rows=[t.__dict__.values() for t in self.tarefas])
