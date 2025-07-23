@@ -59,7 +59,7 @@
   ],
   "algoritmos": [
     {
-      "name": "edf"
+      "name": "sjf"
     },
     {
       "name": "rr"

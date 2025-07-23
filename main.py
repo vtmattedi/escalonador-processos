@@ -17,7 +17,7 @@ ALGORITMOS = [
     (algoritimos.escalonador_lottery, {"preemptive": True,  "quantum": 2}),
     (algoritimos.escalonador_rr, {"preemptive": True, "quantum": 2}),
     (algoritimos.escalonador_priority, {"preemptive": True}),
-    (algoritimos.escalonador_fcfs, {"preemptive": False}),
+    (algoritimos.escalonador_fcfs, {"preemptive": True}),
     (algoritimos.escalonador_sjf, {"preemptive": False}),
 ]
 
